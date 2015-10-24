@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    inPlayList = [NSMutableArray arrayWithObjects:@"Metal Gear Solid 5", @"Uncharted Collection", @"Destiny", nil];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

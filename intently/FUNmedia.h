@@ -10,12 +10,10 @@
 
 @interface FUNmedia : NSObject
 
-{
-    int _rating;
-    bool _playing;
-}
+@property (nonatomic) NSString *title;
+@property (nonatomic) NSString *format;
+@property (nonatomic) int rating;
+@property (nonatomic) bool playing;
 
--(void)setRating:(int)r;
--(void)setPlaying:(bool)p;
 
 @end

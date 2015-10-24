@@ -10,17 +10,10 @@
 
 @implementation FUNmedia
 
-
--(void)setRating:(int)r;
-{
-    _rating = r;
-}
-
-
--(void)setPlaying:(bool)p;
-{
-    _playing = p;
-}
+@synthesize title;
+@synthesize format;
+@synthesize rating;
+@synthesize playing;
 
 
 @end

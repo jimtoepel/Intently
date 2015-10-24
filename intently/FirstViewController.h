@@ -10,6 +10,10 @@
 
 @interface FirstViewController : UIViewController
 
+{
+    NSMutableArray *inPlayList;
+
+}
 
 @end
 
