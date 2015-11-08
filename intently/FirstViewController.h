@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FUNmediaList.h"
+#import "FUNmedia.h"
 
 @interface FirstViewController : UIViewController
 
-{
-    NSMutableArray *inPlayList;
-
-}
 
 @end
 

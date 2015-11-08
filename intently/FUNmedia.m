@@ -13,7 +13,14 @@
 @synthesize title;
 @synthesize format;
 @synthesize rating;
+@synthesize kind;
 @synthesize playing;
+@synthesize hoursPlayed;
+@synthesize finished;
 
+- (void)recordConsumption:(float)a
+{
+    hoursPlayed = hoursPlayed + a;
+}
 
 @end

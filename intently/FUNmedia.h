@@ -11,9 +11,14 @@
 @interface FUNmedia : NSObject
 
 @property (nonatomic) NSString *title;
-@property (nonatomic) NSString *format;
+@property (nonatomic) NSString *format; // ecosystem? itunes, ps4, etc?
+@property (nonatomic) NSString *kind;   // movie, game, tv show?
 @property (nonatomic) int rating;
 @property (nonatomic) bool playing;
+@property (nonatomic) float hoursPlayed;
+@property (nonatomic) bool finished;
+
+-(void)recordConsumption:(float)a;
 
 
 @end
