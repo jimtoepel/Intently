@@ -6,29 +6,21 @@
 //  Copyright © 2015 FunderDevelopment. All rights reserved.
 //
 
-#import "FUNmediaData.h"
+#import "FUNmedia.h"
 
-@implementation FUNmediaData
+@implementation FUNmedia
 
 @synthesize title;
+@synthesize format;
 @synthesize rating;
+@synthesize kind;
 @synthesize playing;
 @synthesize hoursPlayed;
 @synthesize finished;
-
-- (id)initWithTitle:(NSString *)newTitle
-{
-    if ((self =[super init] )){
-        self.title = newTitle;
-
-    }
-    return self;
-}
 
 - (void)recordConsumption:(float)a
 {
     hoursPlayed = hoursPlayed + a;
 }
-
 
 @end
