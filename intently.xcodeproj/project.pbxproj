@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B15DBE171BF8129000C0FDAD /* FUNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15DBE161BF8129000C0FDAD /* FUNTableViewController.m */; };
-		B15DBE1D1BF8178400C0FDAD /* FUNMediaDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B15DBE1C1BF8178400C0FDAD /* FUNMediaDoc.m */; };
 		B1AC563F1BD2E667002640AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC563E1BD2E667002640AB /* main.m */; };
 		B1AC56421BD2E667002640AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56411BD2E667002640AB /* AppDelegate.m */; };
 		B1AC56451BD2E667002640AB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56441BD2E667002640AB /* FirstViewController.m */; };
@@ -18,7 +17,7 @@
 		B1AC56501BD2E667002640AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AC564E1BD2E667002640AB /* LaunchScreen.storyboard */; };
 		B1AC565B1BD2E667002640AB /* intentlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC565A1BD2E667002640AB /* intentlyTests.m */; };
 		B1AC56661BD2E667002640AB /* intentlyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56651BD2E667002640AB /* intentlyUITests.m */; };
-		B1AC56B21BD4732D002640AB /* FUNmediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56B11BD4732D002640AB /* FUNmediaData.m */; };
+		B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56B11BD4732D002640AB /* FUNmedia.m */; };
 		B1B974331BEEFD7100E0462C /* FUNmediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B974321BEEFD7100E0462C /* FUNmediaList.m */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 /* Begin PBXFileReference section */
 		B15DBE151BF8129000C0FDAD /* FUNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNTableViewController.h; sourceTree = "<group>"; };
 		B15DBE161BF8129000C0FDAD /* FUNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNTableViewController.m; sourceTree = "<group>"; };
-		B15DBE1B1BF8178400C0FDAD /* FUNMediaDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNMediaDoc.h; sourceTree = "<group>"; };
-		B15DBE1C1BF8178400C0FDAD /* FUNMediaDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNMediaDoc.m; sourceTree = "<group>"; };
 		B1AC563A1BD2E667002640AB /* intently.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intently.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC563E1BD2E667002640AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1AC56401BD2E667002640AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,8 +59,8 @@
 		B1AC56611BD2E667002640AB /* intentlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intentlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC56651BD2E667002640AB /* intentlyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = intentlyUITests.m; sourceTree = "<group>"; };
 		B1AC56671BD2E667002640AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1AC56B01BD4732D002640AB /* FUNmediaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaData.h; sourceTree = "<group>"; };
-		B1AC56B11BD4732D002640AB /* FUNmediaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaData.m; sourceTree = "<group>"; };
+		B1AC56B01BD4732D002640AB /* FUNmedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmedia.h; sourceTree = "<group>"; };
+		B1AC56B11BD4732D002640AB /* FUNmedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmedia.m; sourceTree = "<group>"; };
 		B1B974311BEEFD7100E0462C /* FUNmediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaList.h; sourceTree = "<group>"; };
 		B1B974321BEEFD7100E0462C /* FUNmediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,10 +93,8 @@
 		B15DBE191BF814A200C0FDAD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B1AC56B01BD4732D002640AB /* FUNmediaData.h */,
-				B1AC56B11BD4732D002640AB /* FUNmediaData.m */,
-				B15DBE1B1BF8178400C0FDAD /* FUNMediaDoc.h */,
-				B15DBE1C1BF8178400C0FDAD /* FUNMediaDoc.m */,
+				B1AC56B01BD4732D002640AB /* FUNmedia.h */,
+				B1AC56B11BD4732D002640AB /* FUNmedia.m */,
 				B1B974311BEEFD7100E0462C /* FUNmediaList.h */,
 				B1B974321BEEFD7100E0462C /* FUNmediaList.m */,
 			);
@@ -311,14 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AC56B21BD4732D002640AB /* FUNmediaData.m in Sources */,
+				B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */,
 				B1AC56481BD2E667002640AB /* SecondViewController.m in Sources */,
 				B15DBE171BF8129000C0FDAD /* FUNTableViewController.m in Sources */,
 				B1B974331BEEFD7100E0462C /* FUNmediaList.m in Sources */,
 				B1AC56421BD2E667002640AB /* AppDelegate.m in Sources */,
 				B1AC56451BD2E667002640AB /* FirstViewController.m in Sources */,
 				B1AC563F1BD2E667002640AB /* main.m in Sources */,
-				B15DBE1D1BF8178400C0FDAD /* FUNMediaDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
