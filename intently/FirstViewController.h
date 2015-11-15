@@ -11,7 +11,10 @@
 #import "FUNmedia.h"
 
 @interface FirstViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITableView *InPlayList;
+@property (nonatomic) FUNmediaList *playing;
+@property (nonatomic) FUNmediaList *finished;
+@property (nonatomic) FUNmediaList *backlog;
 
 @end
 
