@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< HEAD
     
     [self setupFakeData];
   
@@ -141,12 +140,6 @@
     
     NSLog(@"Stuff I've Finished:\n");
     [finished displayList];
-=======
-
-    inPlayList = [NSMutableArray arrayWithObjects:@"Metal Gear Solid 5", @"Uncharted Collection", @"Destiny", nil];
-    
-    // Do any additional setup after loading the view, typically from a nib.
->>>>>>> parent of b2895ab... New Classes!
 }
 
 @end

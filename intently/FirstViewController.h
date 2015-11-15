@@ -7,20 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FUNmediaList.h"
+#import "FUNmedia.h"
 
 @interface FirstViewController : UIViewController
-<<<<<<< HEAD
 @property (weak, nonatomic) IBOutlet UITableView *InPlayList;
 @property (nonatomic) FUNmediaList *playing;
 @property (nonatomic) FUNmediaList *finished;
 @property (nonatomic) FUNmediaList *backlog;
-=======
-
-{
-    NSMutableArray *inPlayList;
-
-}
->>>>>>> parent of b2895ab... New Classes!
 
 @end
 
