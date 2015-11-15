@@ -12,13 +12,15 @@
 
 @synthesize title;
 @synthesize format;
+<<<<<<< HEAD
 @synthesize kind;
 @synthesize thumbImage;
+=======
+>>>>>>> parent of b2895ab... New Classes!
 @synthesize rating;
 @synthesize playing;
-@synthesize hoursPlayed;
-@synthesize finished;
 
+<<<<<<< HEAD
 - (id)initWithTitle:(NSString *)newTitle format:(NSString*)newFormat kind:(NSString*)newKind
 {
     if ((self =[super init] )){
@@ -34,6 +36,8 @@
 {
     hoursPlayed = hoursPlayed + a;
 }
+=======
+>>>>>>> parent of b2895ab... New Classes!
 
 
 @end

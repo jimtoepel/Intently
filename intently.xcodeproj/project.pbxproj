@@ -17,8 +17,7 @@
 		B1AC56501BD2E667002640AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AC564E1BD2E667002640AB /* LaunchScreen.storyboard */; };
 		B1AC565B1BD2E667002640AB /* intentlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC565A1BD2E667002640AB /* intentlyTests.m */; };
 		B1AC56661BD2E667002640AB /* intentlyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56651BD2E667002640AB /* intentlyUITests.m */; };
-		B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56B11BD4732D002640AB /* FUNmedia.m */; };
-		B1B974331BEEFD7100E0462C /* FUNmediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B974321BEEFD7100E0462C /* FUNmediaList.m */; };
+		B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56B11BD4732D002640AB /* FUNmedia.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +60,6 @@
 		B1AC56671BD2E667002640AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1AC56B01BD4732D002640AB /* FUNmedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmedia.h; sourceTree = "<group>"; };
 		B1AC56B11BD4732D002640AB /* FUNmedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmedia.m; sourceTree = "<group>"; };
-		B1B974311BEEFD7100E0462C /* FUNmediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaList.h; sourceTree = "<group>"; };
-		B1B974321BEEFD7100E0462C /* FUNmediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +143,11 @@
 				B1AC564E1BD2E667002640AB /* LaunchScreen.storyboard */,
 				B1AC56511BD2E667002640AB /* Info.plist */,
 				B1AC563D1BD2E667002640AB /* Supporting Files */,
+<<<<<<< HEAD
+=======
+				B1AC56B01BD4732D002640AB /* FUNmedia.h */,
+				B1AC56B11BD4732D002640AB /* FUNmedia.m */,
+>>>>>>> parent of b2895ab... New Classes!
 			);
 			path = intently;
 			sourceTree = "<group>";
@@ -308,8 +310,11 @@
 			files = (
 				B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */,
 				B1AC56481BD2E667002640AB /* SecondViewController.m in Sources */,
+<<<<<<< HEAD
 				B15DBE171BF8129000C0FDAD /* FUNTableViewController.m in Sources */,
 				B1B974331BEEFD7100E0462C /* FUNmediaList.m in Sources */,
+=======
+>>>>>>> parent of b2895ab... New Classes!
 				B1AC56421BD2E667002640AB /* AppDelegate.m in Sources */,
 				B1AC56451BD2E667002640AB /* FirstViewController.m in Sources */,
 				B1AC563F1BD2E667002640AB /* main.m in Sources */,

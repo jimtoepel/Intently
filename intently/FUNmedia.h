@@ -12,6 +12,7 @@
 @interface FUNmedia : NSObject
 
 @property (nonatomic) NSString *title;
+<<<<<<< HEAD
 @property (nonatomic) NSString *format; // ecosystem? itunes, ps4, etc?
 @property (nonatomic) NSString *kind;   // movie, game, tv show?
 
@@ -23,6 +24,11 @@
 
 -(id)initWithTitle:(NSString*)newTitle format:(NSString*)newFormat kind:(NSString*)newKind;
 -(void)recordConsumption:(float)a;
+=======
+@property (nonatomic) NSString *format;
+@property (nonatomic) int rating;
+@property (nonatomic) bool playing;
+>>>>>>> parent of b2895ab... New Classes!
 
 
 @end
