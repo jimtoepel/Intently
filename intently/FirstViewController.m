@@ -10,9 +10,12 @@
 
 @interface FirstViewController ()
 
+
 @end
 
 @implementation FirstViewController
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -87,6 +90,8 @@
     
     NSLog(@"Stuff I've Finished:\n");
     [finished displayList];
+    NSLog(@"%lu", [finished.mediaList count]);
+    
 }
 
 - (void)didReceiveMemoryWarning {

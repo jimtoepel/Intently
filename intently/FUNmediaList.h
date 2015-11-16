@@ -11,7 +11,7 @@
 
 @interface FUNmediaList : NSObject
 {
-    NSMutableArray *_mediaList;
+    NSMutableArray *mediaList;
 }
 
 @property (nonatomic, copy) NSArray *mediaList;

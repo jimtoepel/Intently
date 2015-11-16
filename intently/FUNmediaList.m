@@ -13,33 +13,33 @@
 
 - (NSArray *)mediaList
 {
-    return [_mediaList copy];
+    return [mediaList copy];
 }
 
 
 - (void)addToList:(FUNmedia *)a
 {
     // Is list nil?
-    if (!_mediaList) {
+    if (!mediaList) {
         
         // create an array
-        _mediaList = [[NSMutableArray alloc] init];
+        mediaList = [[NSMutableArray alloc] init];
         
     }
-    [_mediaList addObject:a];
+    [mediaList addObject:a];
     
 }
 
 - (int)count
 {
-    return _mediaList.count;
+    return mediaList.count;
 }
 
 - (float)totalHoursPlayed
 {
     
     float sum = 0;
-    for (FUNmedia *a in _mediaList){
+    for (FUNmedia *a in mediaList){
         sum += [a hoursPlayed];
     }
     return sum;
@@ -49,7 +49,7 @@
 
 -(void)displayList
 {
-    for (FUNmedia *a in _mediaList){
+    for (FUNmedia *a in mediaList){
         NSLog(@"%@", [a title]);
     }
 }
