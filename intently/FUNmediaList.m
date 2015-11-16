@@ -30,6 +30,10 @@
     
 }
 
+- (int)count
+{
+    return _mediaList.count;
+}
 
 - (float)totalHoursPlayed
 {

@@ -17,6 +17,7 @@
 @property (nonatomic, copy) NSArray *mediaList;
 
 -(void)addToList:(FUNmedia *)a;
+-(int)count;
 -(float)totalHoursPlayed;
 -(void)displayList;
 
