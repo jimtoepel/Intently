@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1082ECE1C372E410051C4B4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1082ECD1C372E410051C4B4 /* ThirdViewController.m */; };
+		B1082ED11C37303D0051C4B4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1082ED01C37303D0051C4B4 /* FourthViewController.m */; };
 		B1AC563F1BD2E667002640AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC563E1BD2E667002640AB /* main.m */; };
 		B1AC56421BD2E667002640AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56411BD2E667002640AB /* AppDelegate.m */; };
 		B1AC56451BD2E667002640AB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC56441BD2E667002640AB /* FirstViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1082ECC1C372E410051C4B4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B1082ECD1C372E410051C4B4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B1082ECF1C37303D0051C4B4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B1082ED01C37303D0051C4B4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		B1AC563A1BD2E667002640AB /* intently.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intently.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC563E1BD2E667002640AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1AC56401BD2E667002640AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +122,10 @@
 				B1AC56441BD2E667002640AB /* FirstViewController.m */,
 				B1AC56461BD2E667002640AB /* SecondViewController.h */,
 				B1AC56471BD2E667002640AB /* SecondViewController.m */,
+				B1082ECC1C372E410051C4B4 /* ThirdViewController.h */,
+				B1082ECD1C372E410051C4B4 /* ThirdViewController.m */,
+				B1082ECF1C37303D0051C4B4 /* FourthViewController.h */,
+				B1082ED01C37303D0051C4B4 /* FourthViewController.m */,
 				B1AC56491BD2E667002640AB /* Main.storyboard */,
 				B1AC564C1BD2E667002640AB /* Assets.xcassets */,
 				B1AC564E1BD2E667002640AB /* LaunchScreen.storyboard */,
@@ -285,12 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1082ED11C37303D0051C4B4 /* FourthViewController.m in Sources */,
 				B1AC56B21BD4732D002640AB /* FUNmedia.m in Sources */,
 				B1AC56481BD2E667002640AB /* SecondViewController.m in Sources */,
 				B1B974331BEEFD7100E0462C /* FUNmediaList.m in Sources */,
 				B1AC56421BD2E667002640AB /* AppDelegate.m in Sources */,
 				B1AC56451BD2E667002640AB /* FirstViewController.m in Sources */,
 				B1AC563F1BD2E667002640AB /* main.m in Sources */,
+				B1082ECE1C372E410051C4B4 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

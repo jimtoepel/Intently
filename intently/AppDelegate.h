@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FUNmediaList.h"
+#import "FUNmedia.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
