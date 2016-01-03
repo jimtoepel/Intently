@@ -6,6 +6,10 @@
 //  Copyright © 2016 FunderDevelopment. All rights reserved.
 //
 
+//
+//  This is the ADD ME page
+//
+
 #import "ThirdViewController.h"
 
 @interface ThirdViewController ()

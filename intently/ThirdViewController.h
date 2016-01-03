@@ -6,7 +6,13 @@
 //  Copyright © 2016 FunderDevelopment. All rights reserved.
 //
 
+//
+//  This is the ADD ME page
+//
+
 #import <UIKit/UIKit.h>
+#import "FUNmediaList.h"
+#import "FUNmedia.h"
 
 @interface ThirdViewController : UIViewController
 

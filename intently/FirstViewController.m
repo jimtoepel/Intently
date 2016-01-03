@@ -6,6 +6,10 @@
 //  Copyright © 2015 FunderDevelopment. All rights reserved.
 //
 
+//
+//  THIS IS THE PLAYING LIST
+//
+
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
@@ -19,7 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+//    NSLog(@"Stuff I'm Playing:\n");
+//    [playing displayList];
     
 }
 
